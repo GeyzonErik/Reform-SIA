@@ -2,7 +2,7 @@ function loginButton() {
     if(document.querySelector("#login").value == '') {
         alert('por favor, digite um Usuario GitHub para continuar...');
     }else {
-        location.replace("./Pagina Geyzon/pages/menuPrincipal.html");
+        location.replace("/Pagina Geyzon/pages/menuPrincipal.html");
         localStorage.setItem('user', document.querySelector('#login').value);
     }
 }
