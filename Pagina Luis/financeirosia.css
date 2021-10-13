@@ -1,0 +1,163 @@
+:root {
+    --simple-white: #fff;
+    --easy-black: #333333;
+    --unifavip-primary: #a0005c;
+    --unifavip-secundary: #ffa300;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+} 
+
+.header {
+    align-items: center;
+    background-color: var(--unifavip-primary);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2.1rem;
+}
+
+.header__title {
+    color: var(--simple-white);
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__back {
+    cursor: pointer;
+    color: var(--simple-white);
+}
+
+#data-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-center-h3 {
+    margin-bottom: 2rem;
+    color: rgba(51, 51, 51, 0.9);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+#datasfatura {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.datas-financeiro {
+    cursor: pointer;
+    background-color: var(--unifavip-primary);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    margin: .7rem;
+    color: var(--simple-white);
+}
+
+.dia {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.faturas {
+    display: flex;
+    justify-content: center;
+}
+
+#faturaAberto {
+    background-color: var(--unifavip-primary);
+    border-radius: 13px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.valor {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+#botaoFaturaAberto {
+    cursor: pointer;
+    background-color: var(--unifavip-secundary);
+    border: none;
+    border-radius: 4px;
+    color: var(--unifavip-primary);
+    font-size: 20px;
+    margin-top: 2rem;
+    padding: 8px 22px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.fat-deb-ven {
+    cursor: pointer;
+    background-color: var(--unifavip-primary);
+    color: #fff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    margin: .2rem;
+    padding: 15px;
+}
+
+.fat-deb-ven-p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: .3rem;
+}
+
+.problemaBoleto {
+    cursor: pointer;
+    color: rgba(51, 51, 51, 0.49);
+    margin-top: .5rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header__title {
+        margin: auto;
+        font-size: 3rem;
+    }
+
+    main {
+        display: flex;
+        margin-top: 10rem;
+        justify-content: center;
+    }
+
+    .datas-financeiro {
+        background-color: var(--unifavip-secundary);
+        border-radius: 12px;
+        display: flex;
+        text-align: center;
+        color: var(--unifavip-primary);
+    }
+
+    #datasfatura {
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    #faturaAberto {
+        padding: 2rem 4rem;
+    }
+}
