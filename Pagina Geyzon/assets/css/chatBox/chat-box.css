@@ -1,0 +1,42 @@
+.chat {
+    background: var(--unifavip-primary);
+    border: 2px solid var(--simple-white);
+    border-radius: 50%;
+    bottom: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.342);
+    position: fixed;
+    right: 1rem;
+}
+
+.chat__link {
+    display: flex;
+    margin: .7rem;
+    color: var(--easy-black);
+    text-decoration: none;
+}
+
+.chat__item {
+    display: flex;
+    text-align: center;
+}
+
+.chat__symbol {
+    color: var(--simple-white);
+}
+
+@media screen and (min-width: 1024px) {
+    .chat {
+        bottom: 3rem;
+        right: 6rem;
+    }
+
+    .chat__link {
+        padding: .7rem;
+    }
+
+    .options__symbol {
+        background: none;
+        padding: .2rem;
+    }
+
+}

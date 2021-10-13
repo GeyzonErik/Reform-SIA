@@ -1,0 +1,17 @@
+:root {
+    --simple-white: #ffffff;
+    --easy-black: #333333;
+    --unifavip-primary: #a0005c;
+    --unifavip-secundary: #ffa300;
+}
+
+body {
+    background: #FFF6FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        display: flex;
+    }
+}

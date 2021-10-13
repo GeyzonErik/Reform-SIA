@@ -1,0 +1,39 @@
+.manual {
+    align-items: center;
+    background: var(--unifavip-primary);
+    border-radius: 9px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 0 1rem 0;
+    padding: 1rem;
+}
+
+.manual__title {
+    color: var(--simple-white);
+    text-transform: uppercase;
+    margin-bottom: .7rem;
+    margin-top: .7rem;
+}
+
+.manual__button {
+    background: var(--unifavip-secundary);
+    border: none;
+    color: var(--simple-white);
+    cursor: pointer;
+    font-weight: 400;
+    outline: none;
+    padding: .7rem;
+    text-transform: lowercase;
+    width: 9rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .manual {
+        border: 2px solid var(--simple-white);
+        display: inline-flex;
+        width: 23rem;
+    }
+    
+}

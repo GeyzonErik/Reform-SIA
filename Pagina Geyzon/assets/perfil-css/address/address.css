@@ -1,0 +1,36 @@
+.billing-address {
+    color: var(--simple-white);
+}
+
+.profile-register__title-adress {
+    font-size: 20px;
+}
+
+.billing-address__address {
+    margin: 1rem auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .billing-address {
+        position: relative;
+        align-items: center;
+        background: var(--unifavip-primary);
+        color: var(--simple-white);
+        margin: -18rem 9.4rem 2rem;
+        width: 25rem;
+    }
+
+    .profile-register__title-adress {
+        background: var(--unifavip-secundary);
+        color: var(--unifavip-primary);
+    }
+
+    .profile-register__title-adress {
+        font-size: 26px;
+    }
+
+    .billing-address__address {
+        font-size: 24px;
+    }
+
+}

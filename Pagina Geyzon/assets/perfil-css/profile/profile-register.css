@@ -1,0 +1,55 @@
+.profile-register {
+    background-color: var(--unifavip-primary);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    margin: 0.7rem auto;
+    padding: 1rem 0;
+}
+
+.profile-register__title {
+    background: var(--unifavip-secundary);
+    color: var(--unifavip-primary);
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 22px;
+    padding: 21px 20px;
+}
+
+.profile-register__title-pessoal {
+    margin-top: 2rem;
+    font-size: 21px;
+}
+
+.profile-register__datas {
+    color: var(--simple-white);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile-register {
+        align-items: flex-start;
+        background-color: transparent;
+        margin: 1rem 8rem 0 0;
+        width: 50vw;
+        padding: 0;
+    }
+
+    .profile-register__title-pessoal {
+        background: none;
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .profile-register__datas {
+        align-items: flex-start;
+        color: var(--unifavip-primary);
+        display: flex;
+        justify-content: space-between;
+        font-size: 23px;
+        margin: 24px;
+        width: 90%;
+    }
+}

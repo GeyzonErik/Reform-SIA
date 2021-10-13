@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/perfil-css/header.css">
+    <link rel="stylesheet" href="../assets/perfil-css/profile/profile.css">
+    <link rel="stylesheet" href="../assets/perfil-css/profile/profile-principal.css">
+    <link rel="stylesheet" href="../assets/perfil-css/profile/profile-register.css">
+    <link rel="stylesheet" href="../assets/perfil-css/address/address.css">
+    <title>Document</title>
+    <link rel="icon" href="/Pagina Antonio/Imagem/iconepag.ico">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+    <header class="header">
+        <i class="ph-arrow-left ph-3x header__back" onclick="backMenu()"></i></a>
+        <h1 class="header__title">PERFIL</h1>
+    </header>
+
+    <main>
+        <div class="profile">
+            <section class="profile__principal">
+                <script>
+                    const userName = localStorage.getItem('user');
+                    document.write(`<img class="profile__picture" src="https://github.com/${userName}.png" alt="profile-picture">`)
+                </script>
+                <h1 class="profile__name">Nome Sobrenome</h1>
+                <p class="profile__details">email@exemplo.com</p>
+                <p class="profile__details">2021.12.34567-8</p>
+            </section>
+
+            <section class="profile-register">
+                <h2 class="profile-register__title profile-register__title-pessoal">DADOS CADASTRAIS</h2>
+
+                <ul class="profile-register__datas">
+                    <li>Matricula:</li>
+                    <li>2021.12.34567-8</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>Curso:</li>
+                    <li>Ciências da Computação</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>E-mail Pessoal:</li>
+                    <li>email@exemplo.com</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>E-mail Institucional:</li>
+                    <li>202112345678@alunos.unifavip.edu.br</li>
+                </ul>
+
+                <h2 class="profile-register__title profile-register__title-pessoal">INFORMAÇÕES PESSOAIS:</h2>
+
+                <ul class="profile-register__datas">
+                    <li>Nome Civil:</li>
+                    <li>Nome Completo</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>Data de Nascimento:</li>
+                    <li>DD / MM / AA</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>Naturalidade:</li>
+                    <li>ESTADO</li>
+                    <li>CIDADE</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>Cor/Raça:</li>
+                    <li>Cor do cadastrado</li>
+                </ul>
+                <ul class="profile-register__datas">
+                    <li>Telefone:</li>
+                    <li>(00) 9 1234 - 5678</li>
+                </ul>
+            </section>
+            
+            <section class="billing-address profile-register">
+                <h2 class="profile-register__title profile-register__title-adress">ENDEREÇO DE COBRANÇA:</h2>
+
+                <ul class="billing-address__information">
+                    <li class="billing-address__address">Avenida Inventada</li>
+                    <li class="billing-address__address">Número 123, Bairro </li>
+                    <li class="billing-address__address">CEP: 12345678</li>
+                    <li class="billing-address__address">CIDADE</li>
+                </ul>
+            </section>
+
+            <section class="help">
+                <p class="help__message">NOTOU ALGO DE ERRADO?</p>
+                <a class="help__message-link">Contate-nos</a>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="../js/redirect-links.js"></script>
+</body>
+</html>

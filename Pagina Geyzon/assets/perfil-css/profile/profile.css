@@ -1,0 +1,36 @@
+.profile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem 0 0.7rem 0;
+    text-align: center;
+}
+
+.help__message {
+    color: var(--unifavip-primary);
+}
+
+.help__message-link {
+    cursor: pointer;
+    color: var(--easy-black);
+}
+
+@media screen and (min-width: 1024px) {
+    .profile {
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .help {
+        display: flex;
+        font-size: 21px;
+        margin: 1rem 15rem;
+    }
+
+    .help__message-link {
+        margin-left: .3rem;
+    }
+
+}

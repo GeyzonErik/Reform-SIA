@@ -1,0 +1,35 @@
+.header {
+    align-items: center;
+    background-color: var(--unifavip-primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .9rem;
+}
+
+.profilePicture {
+    display: flex;
+}
+
+.header__menu {
+    color: var(--simple-white);
+    cursor: pointer;
+    margin-top: 1.3rem;
+}
+
+.header__title {
+    color: var(--simple-white);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        justify-content: space-between;
+        padding: .6rem 6rem 0.7rem 6rem;
+    }
+
+    .ph-list {
+        display: none !important;
+    }
+}

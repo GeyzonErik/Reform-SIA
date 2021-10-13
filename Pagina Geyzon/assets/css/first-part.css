@@ -1,0 +1,27 @@
+.first-part {
+    align-items: center;
+    margin: 2.5rem;
+}
+
+.instagram {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 7rem;
+    }
+    
+    .instagram {
+        display: flex;
+        background-color: var(--unifavip-secundary);
+        border: 2px solid var(--simple-white);
+        border-radius: 14px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.342);
+        padding: 0.5rem;
+        width: 30rem;
+    }
+}
