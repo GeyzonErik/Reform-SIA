@@ -8,7 +8,7 @@ function loginButton() {
 }
 
 function enterProfile() {
-    location.replace("/Pagina Geyzon/pages/perfil.html");
+    location.replace("./perfil.html");
 }
 
 function exitAcount() {
