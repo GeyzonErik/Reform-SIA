@@ -1,0 +1,30 @@
+.header {
+    align-items: center;
+    background-color: #A0005C;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.1rem;
+}
+
+.header__title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__back {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__title {
+        margin: auto;
+        font-size: 3rem;
+    }
+}
