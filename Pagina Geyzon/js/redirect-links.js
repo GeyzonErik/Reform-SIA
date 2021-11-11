@@ -12,7 +12,7 @@ function enterProfile() {
 }
 
 function exitAcount() {
-    location.replace("/Pagina Antonio/login.html");
+    location.replace("/Pagina Antonio/Pagina de login/login.html");
 }
 
 function backMenu() {
