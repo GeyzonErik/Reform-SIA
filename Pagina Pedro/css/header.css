@@ -1,0 +1,112 @@
+:root {
+    --simple-white: #fff;
+    --easy-black: #333333;
+    --unifavip-primary: #a0005c;
+    --unifavip-secundary: #ffa300;
+}
+
+body {
+    background: rgba(255, 246, 250, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.dark-mode {
+    background: rgba(0, 0, 0, 0.89);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    align-items: center;
+    background-color: var(--unifavip-primary);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.1rem;
+}
+
+.header__title {
+    color: var(--simple-white);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__back {
+    color: var(--simple-white);
+}
+
+@media screen and (min-width: 1024px) {
+    .header__title {
+        margin: auto;
+        font-size: 3rem;
+    }
+}
+
+.frame {
+    width: 700px;
+    height: 217px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--token-faaee643-0f7c-46fe-8be5-37093484a5e1, #a0005c);
+    overflow: visible;
+    border-radius: 13px;
+}
+
+.requerimento__filho {
+    width: 500px;
+    height: 190px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--token-faaee643-0f7c-46fe-8be5-37093484a5e1, #a0005c);
+    overflow: visible;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.title-requer {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--token-2c4b5175-3697-4ea7-a8c3-32ee937ca6df, #ffa300);
+    overflow: visible;
+    border-radius: 4px;
+    color: #a0005c;
+    margin: 10px auto;
+
+}
+
+.title-requer2 {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--token-2c4b5175-3697-4ea7-a8c3-32ee937ca6df, #ffa300);
+    overflow: visible;
+    border-radius: 4px;
+    color: #a0005c;
+    margin: 10px auto;
+}
+
+.title-requer2 {
+    margin-top: 1;
+}
+#oi {
+    margin-top: -0.1rem;
+}
+
+#butão {
+    margin-top: 1.6rem;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ffa300 !important;
+    border-color: #ffa300;
+    color: #a0005c;
+
+}
